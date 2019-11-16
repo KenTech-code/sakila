@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>
+        PHP and MYSQL
+    </title>
+    <meta charset="UTF-8">
+</header>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="customer.html">Customer</a>
+        <a href="film.html">Film</a>
+    </div>
+
+    <h3>Customers table</h3>
+
+    <form action="addCustomer.php" method="POST">
+
+        customer_id: <input type="number" name="customer_id"> <br>
+
+        store_id: <input type="number" name="store_id"> <br>
+
+        first_name: <input type="text" name="firstname"> <br>
+
+        last_name: <input type="text" name="lastname"> <br>
+
+        email: <input type="email" name="email"> <br>
+
+        address_id: <input type="number" name="address_id"> <br>
+
+        active: <input type="number" name="active"> <br>
+
+        create_date: <input type="datetime" name="create_date"> <br>
+
+        last_update: <input type="timestamp" name="last_update"> <br> <br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+    <br><br>
+</body>
+
+</html>

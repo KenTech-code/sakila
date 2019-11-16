@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>
+        PHP and MYSQL
+    </title>
+    <meta charset="UTF-8">
+</header>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="customer.html">Customer</a>
+        <a href="film.html">Film</a>
+    </div>
+
+    <h3>Film table</h3>
+
+    <form action="film.php" method="GET">
+        film_id: <input type="number" name="film_id"> <br>
+
+        title: <input type="text" name="title"> <br>
+
+        description:  <textarea name="message" rows="5" cols="20"> </textarea> <br>
+
+        release_year: <input type="text" name="release date"> <br>
+
+        language_id: <input type="number" name="language_id"> <br>
+
+        original_language_id: <input type="number" name="original_language_id"> <br>
+
+        rental_duration: <input type="number" name="rental_duration"> <br>
+
+        rental_rate: <input type="number" name="rental_rate"> <br>
+
+        length: <input type="number" name="length"> <br>
+
+        replacement_cost: <input type="number" name="replacement_cost"> <br>
+
+        rating:
+        <select name="rating">
+            <option value="G">General</option>
+            <option value="PG">Parental Guardian</option>
+            <option value="PG-13">PG under 13</option>
+            <option value="R">Rated</option>
+            <option value="NC-17">NC-17</option>
+        </select> <br>
+
+        special_features:  <br>
+        <input type="radio" name="Trailer" value="trailer"> Trailer<br>
+        <input type="radio" name="Commentary" value="commentary"> Commentary<br>
+        <input type="radio" name="Deleted scenes" value="Deleted scenes"> Deleted scenes <br>
+        <input type="radio" name="Behind the scenes" value="Behind the scenes"> Behind the scenes<br>
+
+        last_update: <input type="time" name="timestamp"> <br><br>
+
+        <input type="submit" value="Submit">
+
+
+    </form>
+
+    <br><br>
+</body>
+
+</html>
